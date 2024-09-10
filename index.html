@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header> 
+        <nav class="navbar">
+            <i class="fa-solid fa-burger nav_logo"> food</i>
+
+            <ul class="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send?phone=5511963203341&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seus%20servi%C3%A7os." class="btn-default">
+                Peça aqui
+            </a>
+
+            <button class="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div class="mobile_menu">
+            <ul class="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send?phone=5511963203341&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seus%20servi%C3%A7os." class="btn-default">
+                Peça aqui
+            </a>
+        </div>
+    </header>
+
+    <main class="content">
+        <section id="home"class="home">
+            <div class="shape"></div>
+            <div class="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span> você</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Porro perspiciatis.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn-default">
+                        Ver Cardápio
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5511963203341&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seus%20servi%C3%A7os." class="phone_button">
+                        <i class="fa-solid fa-phone"></i> 
+                        (11) 96320-3341
+                    </a>
+                </div>
+                
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send?phone=5511963203341&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seus%20servi%C3%A7os.">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./images/hero.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            
+            <div class="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+    
+                    <img src="images/dish.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Loren Ipsun</h3>
+                    <span class="dish-descrition">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro perspiciatis.
+                    </span>
+    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+    
+                    <img src="images/dish2.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Loren Ipsun</h3>
+                    <span class="dish-descrition">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro perspiciatis.
+                    </span>
+    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+    
+                    <img src="images/dish3.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Loren Ipsun</h3>
+                    <span class="dish-descrition">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro perspiciatis.
+                    </span>
+    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+    
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+    
+                    <img src="images/dish4.png" class="dish-image" alt="">
+                    <h3 class="dish-title">Loren Ipsun</h3>
+                    <span class="dish-descrition">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro perspiciatis.
+                    </span>
+    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+                       
+            <img src="images/chef.png" class="testimonials_chef" alt="">
+            
+            <div class="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div class="feedbacks">
+                    <div class="feedback">
+                        <img src="images/avatar.png" class="feedback-avatar=">
+                    
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>                    
+                                </span>
+                                <p>
+                                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+                                </p>
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="images/avatar.png" class="feedback-avatar">
+                    
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>                    
+                                </span>
+                                <p>
+                                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+                                </p>
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <img src="images/wave.svg" alt="">
+        <div class="footer_itens">
+            <span class="copyright">
+                gian.costaferro@gmail.com
+            </span>
+            <div class="social-media-buttons">
+                <a href="https://api.whatsapp.com/send?phone=5511963203341&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20seus%20servi%C3%A7os.">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
